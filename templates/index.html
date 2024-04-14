@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PDF Operations</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        background-color: #f8f9fa;
+      }
+      .logo {
+        font-family: "Montserrat", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 3rem;
+        color: #000000;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        margin-bottom: 20px;
+        font-weight: 700;
+      }
+
+      .card {
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+      }
+      .card:hover {
+        transform: translateY(-5px);
+      }
+      .card-body {
+        padding: 2rem;
+      }
+      .card-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+        color: #333;
+      }
+      .card-text {
+        font-size: 1rem;
+        color: #666;
+      }
+      .btn-primary {
+        background-color: #007bff;
+        border: none;
+        border-radius: 8px;
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+        font-weight: bold;
+        transition: all 0.3s ease;
+      }
+      .btn-primary:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="text-center mb-5">
+        <h1 class="logo">PDF Plus</h1>
+      </div>
+      <!-- <h1 class="text-center mb-5">PDF Operations</h1>-->
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Merge PDFs</h5>
+              <p class="card-text">Merge multiple PDF files into one.</p>
+              <a href="/merge" class="btn btn-primary">Go to Merge PDFs</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Split PDF</h5>
+              <p class="card-text">Split a PDF file into individual pages.</p>
+              <a href="/split" class="btn btn-primary">Go to Split PDF</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Extract Text</h5>
+              <p class="card-text">Extract text content from a PDF file.</p>
+              <a href="/extract_text" class="btn btn-primary"
+                >Go to Extract Text</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">JPG TO PDF</h5>
+              <p class="card-text">Convert JPG images to PDF</p>
+              <a href="/convert" class="btn btn-primary">Go to JPG TO PDF</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Reduce Size</h5>
+              <p class="card-text">Reduce the size of a PDF file.</p>
+              <a href="/reduce_size" class="btn btn-primary"
+                >Go to Reduce Size</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Add Watermark</h5>
+              <p class="card-text">Add a watermark to a PDF file.</p>
+              <a href="/add_watermark.html" class="btn btn-primary"
+                >Go to Add Watermark</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
